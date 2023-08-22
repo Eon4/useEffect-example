@@ -1,16 +1,19 @@
-import { useState } from 'react'
-import './App.css'
+import "./App.css";
+// import { ShowUsers } from "./components/ShowUsers";
+import { Validation } from "./components/Validation/Validation";
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  // Et komponent hvor vi bruger useEffect til at lave en form validering
+
+  // Et komponent hvor vi henter og viser noget data fra et api med useEffect
 
   return (
     <>
-      <p>
-       Hello world
-      </p>
+      {/* <ShowUsers/> */}
+      <Validation/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
